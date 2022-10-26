@@ -5,6 +5,13 @@
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<h2 align="center">Links</h2>
+
+- Solution URL: [Advice Generator App (SASS + JS + BEM + Mobile-first) | Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-sass-js-bem-mobilefirst-eiynIQIsXe)
+- Live Site URL: [https://advice-generator-app-melvinhdz.vercel.app/](https://advice-generator-app-melvinhdz.vercel.app/)
+
+<br>
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -87,10 +94,10 @@ sass --watch assets/sass/main.scss assets/css/style.css
 │   │   ├── style.css
 │   │   └── style.css.map
 │   ├── images
-│   │   ├── bg-pattern-quotation.svg
 │   │   ├── favicon-32x32.png
-│   │   ├── icon-star.svg
-│   │   └── illustration-thank-you.svg
+│   │   ├── icon-dice.svg
+│   │   ├── pattern-divider-desktop.svg
+│   │   └── pattern-divider-mobile.svg
 │   ├── js
 │   │   └── main.js
 │   └── sass
@@ -104,9 +111,8 @@ sass --watch assets/sass/main.scss assets/css/style.css
 │       ├── component
 │       │   ├── _attribution.scss
 │       │   ├── _buttons.scss
-│       │   ├── _headings.scss
-│       │   ├── _rating-form.scss
-│       │   └── _screen-reader.scss
+│       │   ├── _screen-reader.scss
+│       │   └── _spinner.scss
 │       ├── layout
 │       │   └── _card.scss
 │       └── main.scss
@@ -114,9 +120,7 @@ sass --watch assets/sass/main.scss assets/css/style.css
 │   ├── active-states.jpg
 │   ├── desktop-design.jpg
 │   ├── desktop-preview.jpg
-│   ├── desktop-thank-you-state.jpg
 │   ├── mobile-design.jpg
-│   ├── mobile-thank-you-state.jpg
 │   └── screenshot.png
 ├── index.html
 └── README.md

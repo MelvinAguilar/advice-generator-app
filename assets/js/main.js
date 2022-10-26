@@ -72,7 +72,7 @@ const showAdvance = () => {
 const main = () => {
     bindElements();
     setFormListeners();
-    //showAdvance();
+    showAdvance();
 }
 
 // Run main function
