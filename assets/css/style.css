@@ -96,20 +96,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*background: $theme-pale-cyan-color url('../images/bg-hero-mobile.svg') no-repeat center top;
-  background-size: contain;*/
 }
 
-main {
-  /*max-width: 90rem;
-  margin: 0 auto;*/
-}
-
-@media screen and (min-width: 768px) {
-  /*body {
-      background-image: url('../images/bg-hero-desktop.svg')
-  }*/
-}
 /* Components */
 .sr-only {
   position: absolute;
