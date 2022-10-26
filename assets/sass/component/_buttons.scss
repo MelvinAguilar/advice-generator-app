@@ -1,0 +1,26 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    @include size(4rem);
+    border-radius: 50%;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2rem;
+    background-color: $theme-neon-green-color;
+    transition: $theme-transition;
+
+    @include center-grid;
+
+    &--disabled {
+        display: none;
+    }
+
+    @include media-hover-effect() {
+        &:hover {
+            box-shadow: 0 0.875rem 1.75rem rgba($theme-neon-green-color, 0.25), 
+            0 0.625rem 0.625rem rgba($theme-neon-green-color, 0.22);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: $theme-text-font;
+   // font-size: 0.938rem;
+    color: $theme-white-color;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $theme-dark-blue-color;
+
+    @include flex;
+
+    /*background: $theme-pale-cyan-color url('../images/bg-hero-mobile.svg') no-repeat center top;
+    background-size: contain;*/
+}
+
+main {
+    //padding: 1.3rem;
+    /*max-width: 90rem;
+    margin: 0 auto;*/
+}
+
+@include media-breakpoint-up($screen-md) {
+    /*body {
+        background-image: url('../images/bg-hero-desktop.svg')
+    }*/
+}

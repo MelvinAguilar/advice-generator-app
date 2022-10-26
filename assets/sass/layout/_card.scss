@@ -1,0 +1,66 @@
+.container {
+    border-radius: 1rem;
+    margin: 1.3rem;
+
+    @include media-breakpoint-up($screen-md) {
+        margin-bottom: 4rem;
+    }
+}
+
+.advice {
+    position: relative;
+    box-shadow: $theme-box-shadow;
+    
+    background-color: $theme-dark-grayish-blue-color;
+    max-width: 33.7rem;
+    font-weight: 700;
+
+    transition: all $theme-transition;
+    padding: 1.7rem;
+    padding-bottom: 4rem;
+    text-align: center;
+
+    &__title {
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 0.3rem;
+        color: $theme-neon-green-color;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        
+        color: $theme-light-cyan-color;
+        margin-bottom: 2.5rem;
+    }
+
+    &__container {
+        transition: all 0.2s ease-in-out;
+    }
+
+    .hidden {
+        opacity: 0;
+    }
+
+    .visible {
+        visibility: visible;
+    }
+
+    @include media-breakpoint-up($screen-md) {
+        padding: 3rem;
+
+        &__title {
+            font-size: 0.8rem;
+        }
+
+        &__text {
+            font-size: 1.7rem;
+        }
+
+        &__divider {
+            margin-bottom: 1rem;
+        }
+    }
+}

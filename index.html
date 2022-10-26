@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Advice generator app challenge by Frontend Mentor. Users can click a button to generate a random advice." />
+    <title>Advice generator app | Frontend Mentor</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <script src="./assets/js/main.js" async defer></script>
+</head>
+<body>
+    <main class="container advice">
+        <h1 class="sr-only">Advice generator</h1>
+        <div class="loader" role="alert" aria-live="assertive">
+            <p class="sr-only loader__spinner">Loading...</p>
+        </div>
+        <div id="advice-container" class="advice__container">
+            <h2 class="advice__title">Advice #<span id="advice-number">&17</span></h2>
+            <p id="advice-text" class="advice__text">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+            <picture>
+                <source srcset="./assets/images/pattern-divider-mobile.svg" media="(max-width: 400px)">
+                <img src="./assets/images/pattern-divider-desktop.svg" alt aria-hidden="true" class="advice__divider">
+            </picture>
+            <button class="btn" id="advice-button" type="button" aria-label="Generate advice">
+                <img src="./assets/images/icon-dice.svg" alt aria-hidden="true">
+            </button>
+        </div>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/MelvinAguilar">Melvin Aguilar</a>.
+    </footer>
+</body>
+</html>
